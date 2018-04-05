@@ -16,9 +16,6 @@ class People {
     public String getFac() {
         return faculty;
     }
-    public void printFac() {
-        System.out.format("Faculty %s \n", faculty);
-    }
     @Override
         public boolean equals(Object o) {
             if (this == o) return true;
